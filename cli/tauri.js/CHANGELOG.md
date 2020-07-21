@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.10.1]
+
+-   Pin the `tauri-api` dependency on the `tauri` crate so updates doesn't crash the build.
+    -   Bumped due to a bump in tauri.
+    -   [ad717c6](https://www.github.com/tauri-apps/tauri/commit/ad717c6f33b4d6e20fbb13cbe30e06946dbb74f6) chore(tauri) pin tauri-api dep version ([#872](https://www.github.com/tauri-apps/tauri/pull/872)) on 2020-07-21
+
 ## [0.10.0]
 
 -   Fixes the `writeFile` and `writeBinaryFile` usage.

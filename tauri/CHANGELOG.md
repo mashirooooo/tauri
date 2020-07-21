@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.8.1]
+
+-   Pin the `tauri-api` dependency on the `tauri` crate so updates doesn't crash the build.
+    -   [ad717c6](https://www.github.com/tauri-apps/tauri/commit/ad717c6f33b4d6e20fbb13cbe30e06946dbb74f6) chore(tauri) pin tauri-api dep version ([#872](https://www.github.com/tauri-apps/tauri/pull/872)) on 2020-07-21
+
 ## [0.8.0]
 
 -   Use native dialog on `window.alert` and `window.confirm`.
